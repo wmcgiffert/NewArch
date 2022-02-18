@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch", "NewArch\NewArch.csproj", "{03B818DB-B66D-4B81-8347-8750E3786080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewArch", "NewArch\NewArch.csproj", "{03B818DB-B66D-4B81-8347-8750E3786080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Application", "NewArch.Application", "{0A6C97EB-EFEC-4705-982A-21DB461D6441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Domain", "NewArch.Domain", "{162C00A2-104F-4C59-9D90-961051757E7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Infra.Ioc", "NewArch.Infra.Ioc", "{E4F2B153-3C01-4419-97AD-73405625B8D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Infra.Data", "NewArch.Infra.Data", "{7656EAA5-925D-4C36-AFBE-5BFC1B779C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.UI.MVC", "NewArch.UI.MVC", "{895233AB-6780-4AF3-ABA2-E0D5394107FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03B818DB-B66D-4B81-8347-8750E3786080} = {895233AB-6780-4AF3-ABA2-E0D5394107FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13C87D3E-79CF-4EB9-8FFB-6C65CD15D935}
