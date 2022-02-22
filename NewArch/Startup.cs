@@ -35,8 +35,9 @@ namespace NewArch
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddDbContext<UniversityDBContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
