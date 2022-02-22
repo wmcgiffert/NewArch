@@ -21,6 +21,7 @@ namespace NewArch.Application.Services
         public IEnumerable<CourseVM> GetCourses()
         {
             throw new NotImplementedException();
+            //reset
         }
     }
 }
