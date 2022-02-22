@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Infra.Data", "NewAr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.UI.MVC", "NewArch.UI.MVC", "{895233AB-6780-4AF3-ABA2-E0D5394107FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch.Domain", "NewArch.Domain\NewArch.Domain.csproj", "{102D5001-9CB3-4833-9FAD-85CB222B3C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{03B818DB-B66D-4B81-8347-8750E3786080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B818DB-B66D-4B81-8347-8750E3786080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B818DB-B66D-4B81-8347-8750E3786080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102D5001-9CB3-4833-9FAD-85CB222B3C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102D5001-9CB3-4833-9FAD-85CB222B3C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102D5001-9CB3-4833-9FAD-85CB222B3C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102D5001-9CB3-4833-9FAD-85CB222B3C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{03B818DB-B66D-4B81-8347-8750E3786080} = {895233AB-6780-4AF3-ABA2-E0D5394107FC}
+		{102D5001-9CB3-4833-9FAD-85CB222B3C39} = {162C00A2-104F-4C59-9D90-961051757E7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13C87D3E-79CF-4EB9-8FFB-6C65CD15D935}
