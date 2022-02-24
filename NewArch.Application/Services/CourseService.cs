@@ -24,4 +24,3 @@ namespace NewArch.Application.Services
         }
     }
 }
-`
