@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NewArch.Data;
 using NewArch.Infra.Data.Context;
+using NewArch.Infra.Ioc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,8 @@ namespace NewArch
             });
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,6 +74,10 @@ namespace NewArch
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
     }
 }

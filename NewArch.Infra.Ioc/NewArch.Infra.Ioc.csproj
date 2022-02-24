@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NewArch.Application\NewArch.Application.csproj" />
+    <ProjectReference Include="..\NewArch.Infra.Data\NewArch.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
