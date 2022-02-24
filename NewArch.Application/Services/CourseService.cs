@@ -18,9 +18,12 @@ namespace NewArch.Application.Services
             _courseRepository = courseRepository;
         }
 
-        public IEnumerable<CourseVM> GetCourses()
+        public CourseVM GetCourses()
         {
-            throw new NotImplementedException();
+            return new CourseVM()
+            {
+                Courses = _courseRepository.GetCourses()
+            };
         }
     }
 }

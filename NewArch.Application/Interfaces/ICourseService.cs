@@ -9,6 +9,6 @@ namespace NewArch.Application.Interfaces
 {
     public interface ICourseService
     {
-        IEnumerable<CourseVM> GetCourses();
+        CourseVM GetCourses();
     }
 }
