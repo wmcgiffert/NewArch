@@ -16,7 +16,7 @@ namespace NewArch.MVC.Controllers
 
         public IActionResult Index()
         {
-            CourseVM model = _courseService.GetCourses()
+            CourseVM model = _courseService.GetCourses();
             return View(model);
         }
     }
