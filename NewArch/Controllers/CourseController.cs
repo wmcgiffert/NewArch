@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NewArch.Application.Interfaces;
 using NewArch.Application.ViewModels;
 
 namespace NewArch.MVC.Controllers
 {
+    [Authorize]
     public class CourseController : Controller
     {
         private ICourseService _courseService;
