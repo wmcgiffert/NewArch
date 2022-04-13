@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Infra.Data", "NewAr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.UI.MVC", "NewArch.UI.MVC", "{895233AB-6780-4AF3-ABA2-E0D5394107FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch.Domain", "NewArch.Domain\NewArch.Domain.csproj", "{102D5001-9CB3-4833-9FAD-85CB222B3C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewArch.Domain", "NewArch.Domain\NewArch.Domain.csproj", "{102D5001-9CB3-4833-9FAD-85CB222B3C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch.Infra.Data", "NewArch.Infra.Data\NewArch.Infra.Data.csproj", "{1B81EAEA-6F7B-4992-8F4C-FF07E0BE7994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewArch.Infra.Data", "NewArch.Infra.Data\NewArch.Infra.Data.csproj", "{1B81EAEA-6F7B-4992-8F4C-FF07E0BE7994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch.Application", "NewArch.Application\NewArch.Application.csproj", "{5D15A90A-F02C-421D-98CA-DA2CDC2DF879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewArch.Application", "NewArch.Application\NewArch.Application.csproj", "{5D15A90A-F02C-421D-98CA-DA2CDC2DF879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewArch.Infra.Ioc", "NewArch.Infra.Ioc\NewArch.Infra.Ioc.csproj", "{61098924-38EF-4918-90B9-16E9BE491996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewArch.Infra.Ioc", "NewArch.Infra.Ioc\NewArch.Infra.Ioc.csproj", "{61098924-38EF-4918-90B9-16E9BE491996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.Infra.Bus", "NewArch.Infra.Bus", "{DA08F9A5-96A7-418F-81BD-4838524AC348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewArch.API.External", "NewArch.API.External", "{59748C59-8BD9-45F1-B66F-3C7C94A6E6CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
